@@ -1,6 +1,7 @@
 import { ExternalLink, Github, ArrowRight, ChevronDown } from 'lucide-react';
 import justhome from '../assets/justhome.png';
 import { SiHtml5, SiJavascript, SiFirebase, SiReact, SiNodedotjs, SiMongodb, SiTypescript, SiNextdotjs, SiTailwindcss, SiRedux } from 'react-icons/si';
+import Track from '../assets/Track.jpg';
 
 const Projects = () => {
 
@@ -30,15 +31,15 @@ const Projects = () => {
       image: justhome
     },
     {
-      title: 'Coming Soon',
-      description: 'An exciting new project is currently in development. Stay tuned for updates on this innovative solution.',
-      tech: ['React', 'Node.js', 'MongoDB'],
-      link: null,
-      github: null,
-      category: 'In Progress',
-      year: '2025',
-      image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=600&fit=crop',
-      isPlaceholder: true
+      title: 'Track Progress',
+      description: 'an app designed to track your progress and motivate your efforts',
+      tech: ['Next.js'],
+      link: 'https://trackprogress-ten.vercel.app/',
+      github: 'https://github.com/thobee/Trackprogress',
+      category: 'Frontend',
+      year: '2026',
+      image: Track ,
+     
     },
     {
       title: 'Coming Soon',
